@@ -122,6 +122,12 @@ footer {
     text-align: center;
 }
 
+#about-company-logo {
+    display: block;
+    margin: auto;
+    height: 5em;
+}
+
 .about-company-txt {
     text-align: center;
 }
