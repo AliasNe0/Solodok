@@ -293,6 +293,10 @@ footer {
         visibility: hidden;
     }
 
+    #navigation-bar {
+        position: static;
+    }
+
     #about-company-container,
     #details-content {
         width: 90%;
