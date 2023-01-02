@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Контакты | ООО "Солодок"</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Solodok LLC - About Company">
+    <meta name="keywords" content="Solodok, LLC, About Company">
+    <meta name="author" content="Ilia Chichkanov">
+    <link id="tab-logo" rel="shortcut icon" type="image/x-icon" href="media/favicon.ico"/>
+</head>
+
+<body>
+    <img id="logo-img1" src="media/logo1.png" alt="">
+    <img id="logo-img2" src="media/logo2.png" alt="">
+    <img id="logo-img3" src="media/logo3.png" alt="">
+    <div id="navigation-bar">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="products.html">Продукция</a></li>
+            <li><a href="quality.html">Контроль качества</a></li>
+            <li><a href="contacts.html">Контакты</a></li>
+            <div style="clear: both;"></div>
+        </ul>
+    </div>
+    <div id="details-container">
+        <div id="contacts-content">
+            <h2 class="details-title">Свяжитесь с нами</h2>
+            <p class="details-txt">Вы можете задать любой вопрос с помощью формы ниже:</p>
+            <form id="contacts-form" action="mailto: solodok7@gmail.com" method="POST" enctype="multipart/form-data"
+                name="EmailForm">
+                <div class="contacts-form-column">
+                    <p class="contacts-fname">Имя:</p>
+                    <input class="contacts-finput" type="text" name="Contact-Name">
+                </div>
+                <div class="contacts-form-column">
+                    <p class="contacts-fname">Email:</p>
+                    <input class="contacts-finput" type="email" name="Contact-Email">
+                </div><br><br>
+                <div class="contacts-form-column">
+                <p class="contacts-fname">Сообщение:</p>
+                <textarea class="contacts-finput" id="contacts-fmessage" name="Contact-Message" rows="15"></textarea>
+            </div><br><br>
+                <button type="submit" value="Submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div id="contact-us">
+            <h2 id="contact-us-header">Свяжитесь с нами</h2>
+            <p class="contacts-address-txt">ул. Нахимова д. 11, лит. А , комн. 207</p>
+            <p class="contacts-address-txt">Санкт-Петербург, 199397</p>
+            <div id="contacts">
+                <div class="contacts-column">
+                    <p class="contacts-column-title">Телефон:</p>
+                    <p class="contacts-column-title">Телефон:</p>
+                    <p class="contacts-column-title">Телефон:</p>
+                    <p class="contacts-column-title">Почта:</p>
+                    <p class="contacts-column-title">Сайт:</p>
+                </div>
+                <div class="contacts-column">
+                    <p class="contacts-column-ref"><a href="tel: +20220650018">+7(911)2135577</a></p>
+                    <p class="contacts-column-ref"><a href="tel: +20201203333649">+7(911)1160193</a></p>
+                    <p class="contacts-column-ref"><a href="tel: +20220650066">+7(995)6002211</a></p>
+                    <p class="contacts-column-ref"><a href="mailto: solodok7@gmail.com">solodok7@gmail.com</a></p>
+                    <p class="contacts-column-ref"><a href="grand-solodok.ru">grand-solodok.ru</a></p>
+                </div>
+            </div>
+        </div>
+        <div id="copyright">
+            <p>© Copyright 2022 | Solodok LLC</p>
+        </div>
+    </footer>
+</body>
+
+</html>
