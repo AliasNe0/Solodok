@@ -356,7 +356,7 @@ footer {
     }
 
     .products-file-mobile {
-        display: block;
+        display: inline;
         margin: auto;
     }
 }
