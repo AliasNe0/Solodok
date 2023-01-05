@@ -349,7 +349,7 @@ footer {
     }
 }
 
-@media only screen and (hover: none) and (pointer: coarse) {
+/* @media only screen and (hover: none) and (pointer: coarse) {
 
     .products-file-pc {
         display: none;
@@ -359,4 +359,4 @@ footer {
         display: inline;
         margin: auto;
     }
-}
+} */
