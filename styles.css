@@ -347,16 +347,16 @@ footer {
     #contacts-fmessage {
         width: auto;
     }
+}
 
-    @media only screen and (hover: none) and (pointer: coarse) {
+@media only screen and (hover: none) and (pointer: coarse) {
 
-        .products-file-pc {
-            display: none;
-        }
-
-        .products-file-mobile {
-            display: inline;
-        }
-
+    .products-file-pc {
+        display: none;
     }
+
+    .products-file-mobile {
+        display: inline;
+    }
+
 }
