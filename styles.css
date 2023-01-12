@@ -43,7 +43,7 @@ footer {
 }
 
 #logo-img3 {
-    left: 15.625em;
+    left: 15.625em;    
 }
 
 #navigation-bar {
@@ -128,7 +128,7 @@ footer {
 #about-company-logo {
     display: block;
     margin: auto;
-    height: 5em;
+    height: 15em;
 }
 
 .about-company-txt {
