@@ -21,7 +21,7 @@ footer {
 }
 
 #tab-logo {
-    height: 50%;
+    height: 200%;
 }
 
 #logo-img1,
@@ -43,7 +43,9 @@ footer {
 }
 
 #logo-img3 {
-    left: 15.625em;    
+    height: 2.25em;
+    top: 0.7825em;
+    left: 15.3em;    
 }
 
 #navigation-bar {
@@ -123,12 +125,13 @@ footer {
 
 #about-company-title {
     text-align: center;
+    margin-bottom: 0.4em;
 }
 
 #about-company-logo {
     display: block;
     margin: auto;
-    height: 15em;
+    height: 20em;
 }
 
 .about-company-txt {
