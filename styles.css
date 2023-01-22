@@ -43,8 +43,6 @@ footer {
 }
 
 #logo-img3 {
-    height: 2.25em;
-    top: 0.7825em;
     left: 15.3em;
 }
 
@@ -101,7 +99,7 @@ footer {
     right: 50%;
     left: 50%;
     bottom: 0;
-    height: 0.125em;
+    height: 0.1em;
     background-color: #0054a6;
 }
 
