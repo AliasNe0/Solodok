@@ -306,7 +306,7 @@ footer {
     background-color: #282a2b;
 }
 
-@media only screen and (max-width: 82em) or ((hover: none) and (pointer: coarse)){
+@media only screen and (max-width: 87em) {
 
     #logo-img1,
     #logo-img2,
