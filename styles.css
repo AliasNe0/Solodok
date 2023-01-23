@@ -267,7 +267,7 @@ footer {
 #contacts-fmessage {
     display: block;
     margin: auto;
-    width: 37.5em;
+    width: 50em;
 }
 
 #contact-us {
@@ -371,6 +371,7 @@ footer {
     }
 
     #contacts-fmessage {
+        float: left;
         width: 100%;
     }
 
