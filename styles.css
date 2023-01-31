@@ -10,8 +10,8 @@ body {
 }
 
 footer {
-    background: linear-gradient(rgba(0, 0, 0, 0.7),
-            rgba(0, 0, 0, 0.7)), url("media/footer.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.45),
+            rgba(0, 0, 0, 0)), url("media/footer.jpg");
     background-position: center center;
     margin: 0;
     padding: 0;
@@ -271,10 +271,12 @@ footer {
 }
 
 #contact-us {
+    color: rgb(192, 214, 223);
     padding: 0.625em;
 }
 
 #contact-us-header {
+    color: rgb(227, 241, 247);
     margin: 0;
     padding: 0.625em;
     font-size: 1.875em;
@@ -300,10 +302,15 @@ footer {
     padding: 0.3125em;
 }
 
+.contacts-column-ref a:link {
+    color: rgb(227, 241, 247);
+}
+
 #copyright {
+    color: rgb(192, 214, 223);
     clear: both;
     padding: 0.3125em;
-    background-color: #282a2b;
+    background-color: #134774;
 }
 
 @media only screen and (max-width: 82em) {
