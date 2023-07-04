@@ -132,15 +132,21 @@ footer {
     height: 20em;
 }
 
-.about-company-txt {
+.about-company-partners {
     text-align: center;
+    padding: 0.625em 0;
+    margin: 0;
+}
+
+.about-company-txt {
+    text-align: left;
 }
 
 #about-company-video {
     display: block;
-    margin: auto;
-    width: 90%;
-    height: 30.35em;
+    margin-left: 0;
+    width: 98%;
+    height: 34em;
 }
 
 #details-container {
